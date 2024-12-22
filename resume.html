@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<!-- THIS RESUME TEMPLATE USES W3.CSS. IT HAS A SIDEBAR ON THE LEFT. 
+    IT ALSO USES FONT AWESOME ICONS.
+    I MODIFIED A TEMPLATE FROM CODEPEN TO CUSTOMIZE THIS TEMPLATE FOR OUR CLASS. 
+    I'VE ALSO ADDED SOME HELPFUL INSTRUCTIONS FOR YOU.
+    READ EACH OF THE COMMENTS IN THE CODE FOR INSTRUCTIONS!
+Source: https://codepen.io/nathan-sr/pen/WNgPLvr -->
+<html lang="en">
+    <head>
+        <!-- Remember to replace this title with the name of your website! -->
+        <title>Resume</title>
+
+        <!-- Keep this stuff. It makes the site responsive and makes w3.css work. -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       
+        <!-- Keep this too. This template uses Font Awesome icons, and this makes them work.  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" href="css/style.css">
+        
+        <style>
+            @font-face {
+                font-family: 'varien';
+                src: url('fonts/varien.ttf') format('truetype');
+            }
+            @font-face {
+                font-family: 'metrik-bold';
+                src: url('fonts/metrik-bold.ttf') format('truetype');
+            }
+
+            /* Apply varien font to titles and headings */
+            .w3-container h2,
+            .w3-large b,
+            .w3-opacity b,
+            .w3-display-bottomleft h2,
+            .w3-text-theme b {
+                font-family: 'varien', sans-serif;
+                font-weight: 'regular'; 
+            }
+
+            /* Keep metrik-bold for body text */
+            .w3-container p,
+            .w3-text-grey p,
+            .w3-opacity p {
+                font-family: 'metrik', sans-serif;
+            }
+        </style>
+    </head>
+
+    <header>
+        <!-- Fixed Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">  <!-- Changed from html.html to index.html -->
+                    <img src="assets/Personal-logo-nourmohsen-02.png" alt="Logo">
+                </a>
+            </div>
+
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://nourmohsen.com/work">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+</header>
+
+
+    <body style="background-color: #d4d0c7;">
+
+            <!-- Page Container -->
+            <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- The Grid -->
+            <div class="w3-row-padding">
+            
+                <!-- Left Column -->
+                <div class="w3-third">
+                
+                    <div class="w3-white w3-text-grey w3-card-4">
+                        <div class="w3-display-container">
+                            <img src="assets/personal picture (1).jpeg" style="width:100%" alt="Avatar">
+                            <div class="w3-display-bottomleft w3-container w3-text-white"
+                            ">
+                                <h2>NOUR MOHSEN</h2>
+                            </div>
+                        </div>
+                        <div class="w3-container">
+
+                            <!--HOW TO USE FONT AWESOME ICONS
+                                This template uses these font awesome icons. to use a font awesome icon, 
+                                1. go to this site and find an icon you like: https://fontawesome.com/icons 
+                                2. Grab the name of the icon. Let's say you choose "cube." Then, go down to one of the places below that has 
+                                classes of "fa" and "fa-[something]." You are going to replace the word "something" with "cube."
+                                3. That's it! the line of code should read something like: 
+                                <p><i class="fa fa-cube fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+                            -->
+
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Designer</p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Queens, NY</p>
+                            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>nour.walid347@gmail.com</p>
+                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>(347) 537-8535</p>
+                            <hr>
+
+                            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"></i>Skills</b></p>
+                            <p>Adobe Photoshop</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">80%</div>
+                            </div>
+                            <p>Photography</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">
+                                    <div class="w3-center w3-text-white">80%</div>
+                                </div>
+                            </div>
+                            <p>Illustrator</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:75%">75%</div>
+                            </div>
+                            <p>Media</p>
+                            <div class="w3-light-grey w3-round-xlarge w3-small">
+                                <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
+                            </div>
+                            <br>
+
+                            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue"></i>Languages</b></p>
+                            <p>English</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
+                            </div>
+                            <p>Arabic</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
+                            </div>
+                            <div class="w3-light-grey w3-round-xlarge">
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+
+                <!-- End Left Column -->
+                </div>
+
+                <!-- Right Column -->
+                <div class="w3-twothird">
+                
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <h2 class="w3-text-black w3-padding-16 resume-title">
+                        <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Work Experience
+                    </h2>
+                    <div class="w3-container resume-body">
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>UI & Graphic Designer / Art Beyond Sight, Internship</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2024 - Aug 2024</h6>
+                            <p>Redesigned the UI of the company’s website using Canva and Figma. Created photo frames and other design elements for social media.
+                            </p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Graphic Designer / Brooklyn College, Internship</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2024 - Aug 2024</h6>
+                            <p>Worked on designing various report covers beside designing logos for clients, working with a 5 person team.</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Manager / Insomnia Cookies</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2023 - Nov 2024</h6>
+                            <p>Manage a crew of 3 employees to tend
+                            to a cookie retail business.
+                            Interface with customers in a busy retail environment.
+                            Responsible for revenue, inventory, and cash sales.</p><br>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>Freelance 3D Designer</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2023</h6>
+                            <p>I used SolidWorks to create precise 3D models of St Dupont lighter
+                            spare parts and collaborated with clients to ensure accurate component production.</p><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-black w3-padding-16 resume-title">
+                        <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Education
+                    </h2>
+                    <div class="w3-container resume-body">
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+                            <p>Web Development! All I need to know in one place</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>NYC College of Technology</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - <span class="w3-tag w3-blue w3-round">Current</span></h6>
+                            <p>Bachelor of Fine Arts (<b>BFA</b>), Communication Design (in progress)</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b> CUNY, LaGuardia Community College</b></h5>
+                            <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2023</h6>
+                            <p>Associate of Applied Science (<b>AAS</b>), Industrial and Product Design</p><br>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Right Column -->
+                </div>
+                
+            <!-- End Grid -->
+            </div>
+        
+        <!-- End Page Container -->
+        </div>
+
+        <footer class="footer-section w3-black w3-center w3-padding-16">
+            <a href="https://www.instagram.com/nourmwalid/" target="_blank">
+                <i class="fa fa-instagram w3-row-padding w3-hover-opacity w3-xlarge"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/nourmohsen1/" target="_blank">
+                    <i class="fa fa-linkedin w3-row-padding w3-hover-opacity w3-xlarge"></i>
+                </a>    
+            
+            <!-- Date and Time -->
+        <div class="date-button-container">
+            <button type="button" class="date-button" onclick="showDateTime()">Date</button>
+        </div>
+        <p id="date" class="date-text"></p>
+
+        <script>
+            var d = new Date();
+            document.getElementById("date").innerHTML = d;
+            </script> 
+        </footer>
+        <script src="javascript/script.js"></script>
+
+    </body>
+
+</html>
